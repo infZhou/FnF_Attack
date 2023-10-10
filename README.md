@@ -1,8 +1,8 @@
 # F&F Attack: Adversarial Attack against Multiple Object Trackers by Inducing False Negatives and False Positives
 
-PyTorch Implementation for paper [F&F Attack: Adversarial Attack against Multiple Object Trackers by Inducing False Negatives and False Positives]((https://infzhou.github.io/FnFAttack/index.html)), ICCV 2023.
+PyTorch implementation for paper [F&F Attack: Adversarial Attack against Multiple Object Trackers by Inducing False Negatives and False Positives](https://infzhou.github.io/FnFAttack/index.html), ICCV 2023.
 
-Code will come soon.
+The code will come soon.
 
 #### [Project Page](https://infzhou.github.io/FnFAttack/index.html) | [Paper](https://infzhou.github.io/folder/ZhouTao_F&F_Attack_ICCV2023_main_text+supp.pdf) | [Video](https://infzhou.github.io/folder/Video_F&F_Attack_ICCV_2023.mp4)
 
