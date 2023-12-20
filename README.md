@@ -28,7 +28,7 @@ Download [MOT17](https://motchallenge.net/) and [MOT20](https://motchallenge.net
 ```
 Then, you need to change the variables `img_dir_17` and `img_dir_20` in `/yolox/data/datasets/mot.py` to your data path. 
 
-As mentioned in our paper, to enrich the sequence, we split each evaluation sequence into segments every 30 frames. Additionally, to simplify the code, the released version uses offline files to load the tracking results of BYTETrack obtained on clean images. For convenience, we provide the [processed data](https://drive.google.com/file/d/1fBnwMUI1myLYvA3ezHVY770CY4Y8Slzo/view?usp=sharing) that has already been converted to COCO format. You need to download it and place it as follows:
+As mentioned in our paper, to enrich the sequence, we split each evaluation sequence into segments every 30 frames. Additionally, to simplify the code, the released version uses offline files to load the tracking results of BYTETrack obtained on clean images. For convenience, we provide the [processed data](https://drive.google.com/file/d/1fBnwMUI1myLYvA3ezHVY770CY4Y8Slzo/view?usp=sharing) that has already been converted to COCO format. Please download it and place it as follows:
 ```
 datasets
    |——————mot17_data
