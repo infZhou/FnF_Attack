@@ -11,7 +11,7 @@ Multi-object trackers that follow the tracking-by-detection paradigm heavily rel
 
 
 ## Installation
-Step1. Please setup [BYTETrack](https://github.com/ifzhang/ByteTrack) following its instructions. Our project has been tested on PyTorch version 1.8. We observed potential issues with GPU memory leaks using a higher version of PyTorch (e.g., 1.13.0). We may fix this problem in future updates. Our released project requires at least 8GB GPU memory (depending on the size of the targeted model).
+Step1. Please setup [BYTETrack](https://github.com/ifzhang/ByteTrack) following its instructions. Our project has been tested on PyTorch version 1.8.0. We observed potential issues with GPU memory leaks using a higher version of PyTorch (e.g., 1.13.0). We may fix this problem in future updates. Our released project requires at least 8GB GPU memory (depending on the size of the targeted model).
 
 Setp2. Download the code of F&F Attack and merge it with BYTETrack where several files of BYTETrack will be overwritten.
 
