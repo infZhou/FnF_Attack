@@ -11,7 +11,7 @@ Multi-object trackers that follow the tracking-by-detection paradigm heavily rel
 
 
 ## Installation
-Step1. Please setup [BYTETrack](https://github.com/ifzhang/ByteTrack) following its instructions. Our project has been tested on PyTorch version 1.8.0. We observed potential issues with GPU memory leaks using a higher version of PyTorch (e.g., 1.13.0). We may fix this problem in future updates. Our released project requires at least 8GB GPU memory (depending on the size of the targeted model).
+Step1. Please setup [BYTETrack](https://github.com/ifzhang/ByteTrack) following its instructions. Our project has been tested on PyTorch version `1.8.0`. We observed potential issues with GPU memory leaks using a higher version of PyTorch (e.g., `1.13.0`). We may fix this problem in future updates. Our released project requires at least 8GB GPU memory (depending on the size of the targeted model).
 
 Setp2. Download the code of F&F Attack and merge it with BYTETrack where several files of BYTETrack will be overwritten.
 
@@ -63,12 +63,12 @@ python3 tools/joint_attack_and_track.py -expn attack_mot17_SORT -f exps/example/
 * **Attack BYTETrack on MOT20 validation set**
 ```shell
 cd <FnF_Attack_HOME>
-python3 tools/joint_attack_and_track.py -expn attack_mot20_BYTETrack -f exps/example/mot/FnF_attack_yolo_x_mot20.py -c models/bytetrack_ablation.pth.tar --mot20 -b 1 -d 1 --fp16 --fuse --attack_mode 6 --adv_conf_loss_weight 1 --adv_cls_loss_weight 0 --adv_iou_loss_weight 0 --adv_l1_loss_weight 1 --attack_interval 8 --attack_step_per_interval 3 --n_frames_per_seq 30 --adv_grad_clip 1e-5 --max_attack_iter 30 --fp_shift_ratio 0.3 --fp_scale_ratio 0.4
+python3 tools/joint_attack_and_track.py -expn attack_mot20_BYTETrack -f exps/example/mot/FnF_attack_yolo_x_mot20.py -c models/mot20_ablation.pth.tar --mot20 -b 1 -d 1 --fp16 --fuse --attack_mode 6 --adv_conf_loss_weight 1 --adv_cls_loss_weight 0 --adv_iou_loss_weight 0 --adv_l1_loss_weight 1 --attack_interval 8 --attack_step_per_interval 3 --n_frames_per_seq 30 --adv_grad_clip 1e-5 --max_attack_iter 30 --fp_shift_ratio 0.3 --fp_scale_ratio 0.4
 ```
 * **Attack SORT on MOT20 validation set**
 ```shell
 cd <FnF_Attack_HOME>
-python3 tools/joint_attack_and_track.py -expn attack_mot20_SORT -f exps/example/mot/FnF_attack_yolo_x_mot20.py -c models/bytetrack_ablation.pth.tar --mot20 -b 1 -d 1 --fp16 --fuse --attack_mode 6 --adv_conf_loss_weight 1 --adv_cls_loss_weight 0 --adv_iou_loss_weight 0 --adv_l1_loss_weight 1 --attack_interval 8 --attack_step_per_interval 3 --n_frames_per_seq 30 --adv_grad_clip 1e-5 --max_attack_iter 30 --fp_shift_ratio 0.2 --fp_scale_ratio 0.6 --enable_sort_tracker
+python3 tools/joint_attack_and_track.py -expn attack_mot20_SORT -f exps/example/mot/FnF_attack_yolo_x_mot20.py -c models/mot20_ablation.pth.tar --mot20 -b 1 -d 1 --fp16 --fuse --attack_mode 6 --adv_conf_loss_weight 1 --adv_cls_loss_weight 0 --adv_iou_loss_weight 0 --adv_l1_loss_weight 1 --attack_interval 8 --attack_step_per_interval 3 --n_frames_per_seq 30 --adv_grad_clip 1e-5 --max_attack_iter 30 --fp_shift_ratio 0.2 --fp_scale_ratio 0.6 --enable_sort_tracker
 ```
 ## Acknowledgement
 
