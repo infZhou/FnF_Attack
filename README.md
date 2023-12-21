@@ -44,7 +44,7 @@ datasets
 ```
 
 ## Model zoo
-| Discription    |  Link |  Discription |
+|Model    |  Link |  Description |
 |----------------|------|----------|
 |MOT17_half|[[google]](https://drive.google.com/file/d/1iqhM-6V_r1FpOlOzrdP_Ejshgk0DxOob/view?usp=sharing)| Trained on CrowdHuman and MOT17 half train (provided by BYTETrack)|
 |MOT20_half|[[google]](https://drive.google.com/file/d/1uVXiDJDBbQ-EoyYQVfBGyZMuAqnQkjzh/view?usp=drive_link)| Trained on CrowdHuman and MOT20 half train|
